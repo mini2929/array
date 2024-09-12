@@ -14,6 +14,6 @@ btnActive.addEventListener("click", () => {
     box.classList.add("on");
 });
 
-btnReset.addEventListener("clikc", () => {
+btnReset.addEventListener("click", () => {
     box.classList.remove("on");
 });
