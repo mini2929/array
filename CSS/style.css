@@ -41,5 +41,11 @@ main .btnToggle > div {
 main .btnToggle.on > div.middle {
   width: 0px;
 }
+main .btnToggle.on > div.top {
+  transform: translateY(11px) rotate(225deg);
+}
+main .btnToggle.on > div.bottom {
+  transform: translateY(-11px) rotate(-225deg);
+}
 
 /*# sourceMappingURL=style.css.map */
