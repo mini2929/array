@@ -16,4 +16,16 @@ nav {
   padding: 100px 200px 0px;
 }
 
+#box {
+  width: 400px;
+  height: 400px;
+  background-color: hotpink;
+  margin: 100px 200px;
+  transition: all 1s;
+}
+#box.on {
+  background-color: aqua;
+  transform: rotate(360deg);
+}
+
 /*# sourceMappingURL=style.css.map */
