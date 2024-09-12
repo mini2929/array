@@ -12,20 +12,29 @@ a {
   text-decoration: none;
 }
 
-nav {
-  padding: 100px 200px 0px;
+main {
+  width: 350px;
+  height: 700px;
+  margin: 100px auto;
+  background: linear-gradient(45deg, hotpink, violet);
+  border-radius: 20px;
+  overflow: hidden;
+  position: relative;
 }
-
-#box {
-  width: 400px;
-  height: 400px;
-  background-color: hotpink;
-  margin: 100px 200px;
-  transition: all 1s;
+main .btnToggle {
+  width: 30px;
+  height: 24px;
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
 }
-#box.on {
-  background-color: aqua;
-  transform: rotate(360deg);
+main .btnToggle > div {
+  width: 100%;
+  height: 2px;
+  background-color: #fff;
 }
 
 /*# sourceMappingURL=style.css.map */
